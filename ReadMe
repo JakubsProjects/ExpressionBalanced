@@ -1,0 +1,4 @@
+ExpressionBalanced or as I like to call it IsBalanced is a program checker which checks if for each opening bracket you have 
+a closing bracket, and vice versa. The program is implemented defining a structure of 3 items and using a stack (using malloc 
+to allocate space). It will tell you which bracket and where the missing bracket belongs/to which element.
+If you have the following ( { < > ), then you are missing "}" and the program will tell you. It's fun try it!
